@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Montserrat&display=swap');
+
+* {
+    background-color: #5CDB95;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Montserrat', sans-serif;;
+    color: #EDF5E1;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    overflow: auto;
+}
+.links {
+    float: right;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-right: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: #05386B;
+}
+
+a:hover {
+    color: #EDF5E1;
+  }
+
+a:active {
+    color: #379683;
+  } 
+
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-left: 10;
+}
+
+main {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 20%;
+    color: white;
+}
+
+a > img {
+    height: 2rem;
+    padding:1rem;
+    padding-right: 2rem;
+}
+
+.profilePhoto {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    padding-top: 50px;
+    margin-right: 2%;
+    margin-left: auto;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+}
+
+main {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%
+}
+
+#aboutPageImage1 {
+    width: 20%;
+    padding-right: 5rem;
+    margin-left: 6%;
+}
+
+#aboutPageImage2 {
+    width: 20%;
+    padding-right: 5rem;
+}
+
+#aboutPageImage3 {
+    width: 20%;
+    padding-right: 5rem;
+}
+
+.aboutMe {
+    text-align: center;
+    font-size: larger;
+    margin: 2% 15% 0% 15%;
+}
+
+.aboutMeH1 {
+    float: left;
+    display: block;
+    position: relative;
+    margin-top: -4%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#portfolioPhoto1 {
+    float: left;
+    width: 30%;
+    display: block;
+    margin-left: 1%;
+    margin-top: -4%;
+}
+
+#portfolioPhoto2 {
+    float: right;
+    width: 28%;
+    height: 30%;
+    display: block;
+    margin-right: 2%;
+    margin-top: 15%;
+}
+
+#portfolioParagraph1 {
+    display: block;
+    margin-right: 5%;
+    padding-left: 32%;
+}
+
+#portfolioParagraph2 {
+    display: block;
+    margin-left: 5%;
+    margin-top: 20%;
+    padding-right: 31%;
+}
+
+.portfolioH1 {
+    float: left;
+    margin-top: -6%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
